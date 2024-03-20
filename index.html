@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple calculator</title>
+<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<center><h2>Simple calculator</h2></center>
+<div class="main">
+<label for="">Input 1</label>
+<input type="number" name="number1" id="n1"><br>
+<label for="">Input 2</label>
+<input type="number"  id="n2"><br>
+<h2 id="res"></h2>
+<div id="btn1">
+<input type="submit" value="ADDITION" onclick="add()" id="line1">
+<input type="submit" value="SUBRACTION" onclick="sub()" id="line2">
+</div>
+<div id="btn2">
+<input type="submit" value="MULTIPLICATION" onclick="mul()" id="line3">
+<input type="submit" value="DIVISION" onclick="div()" id="line4">
+</div>
+</div>
+<script src = "./design.js"></script>
+</body>
+</html>

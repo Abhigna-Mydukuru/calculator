@@ -1,0 +1,50 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(background2.jpeg);
+}
+h2{
+    color: black;
+    font-size: xx-large;
+    margin-top: 10%;
+}
+.main{
+    border: 3px solid black;
+    width: 500px;
+    height:600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    
+    
+}
+#n1{
+    margin-top: 190px;
+    margin-bottom: 20px;
+}
+#line1{
+    background: black;
+    color: white;
+    height: 30px;
+    margin-bottom: 20px;
+}
+#line2{
+    background: black;
+    color: white;
+    height: 30px;
+}
+#line3{
+    background: black;
+    color: white;
+    height: 30px;
+    margin-left: 15px;
+}
+#line4{
+    background: black;
+    color: white;
+    height: 30px;
+}
+#btn1{
+    justify-content: space-evenly;
+    border-radius: 50%;
+}
